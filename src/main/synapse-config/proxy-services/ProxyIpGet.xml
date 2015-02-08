@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse" name="ProxyIpGet" transports="https http" startOnLoad="true" trace="disable">
+    <target>
+        <inSequence>
+            <property name="client_ip_address" expression="get-property('axis2','REMOTE_ADDR')" scope="default" type="STRING"/>
+            <send>
+                <endpoint>
+                    <http method="get" uri-template="http://192.168.192.101:8080/tweet/chakch007"/>
+                </endpoint>
+            </send>
+        </inSequence>
+        <outSequence>
+            <property name="IP" expression="get-property('axis2','REMOTE_ADDR')" scope="default" type="STRING"/>
+            <payloadFactory media-type="json" description="">
+                <format>{"Pseudo":"$1", "address":"$2" }</format>
+                <args>
+                    <arg evaluator="json" expression="$.Pseudo"/>
+                    <arg evaluator="xml" expression="get-property('client_ip_address')"/>
+                </args>
+            </payloadFactory>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </target>
+</proxy>

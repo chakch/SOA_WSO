@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esb:EsbDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb">
+  <server type="COMPLEX_ENDPOINT">
+    <children xsi:type="esb:ComplexEndpoints" name="1422952085942">
+      <mediatorFlow/>
+    </children>
+  </server>
+</esb:EsbDiagram>

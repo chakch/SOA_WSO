@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api xmlns="http://ws.apache.org/ns/synapse" name="ApiTweet" context="/tweet">
+    <resource methods="DELETE POST GET" uri-template="/{pseudo}*">
+        <inSequence>
+            <switch source="$axis2:HTTP_METHOD">
+                <case regex="GET">
+                    <filter xpath="$ctx:query.param.val">
+                        <then>
+                            <send>
+                                <endpoint>
+                                    <http method="get" uri-template="http://192.168.192.101:8080/tweet/{uri.var.pseudo}/{query.param.val}"/>
+                                </endpoint>
+                            </send>
+                        </then>
+                        <else>
+                            <send>
+                                <endpoint>
+                                    <http method="get" uri-template="http://192.168.192.101:8080/tweet/{uri.var.pseudo}"/>
+                                </endpoint>
+                            </send>
+                        </else>
+                    </filter>
+                </case>
+                <case regex="POST">
+                    <log level="custom" separator=",">
+                        <property name="Message Flow" value="--- Order POST ---"/>
+                    </log>
+                    <send>
+                        <endpoint>
+                            <http method="post" uri-template="http://192.168.192.101:8080/tweet/{uri.var.pseudo}"/>
+                        </endpoint>
+                    </send>
+                </case>
+                <case regex="DELETE">
+                    <send>
+                        <endpoint>
+                            <http method="delete" uri-template="http://192.168.192.101:8080/tweet/{uri.var.pseudo}"/>
+                        </endpoint>
+                    </send>
+                </case>
+                <default/>
+            </switch>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

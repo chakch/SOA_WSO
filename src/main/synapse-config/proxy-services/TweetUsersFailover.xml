@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse" name="TweetUsersFailover" transports="http https" startOnLoad="true" trace="enable">
+    <target>
+        <inSequence>
+            <log level="full"/>
+            <property name="client_ip_address" expression="get-property('axis2','REMOTE_HOST')" scope="default" type="STRING"/>
+            <property name="messageType" value="application/xml" scope="axis2" type="STRING"/>
+            <send>
+                <endpoint>
+                    <loadbalance algorithm="org.apache.synapse.endpoints.algorithms.RoundRobin">
+                        <endpoint>
+                            <http uri-template="http://192.168.192.101:8080/tweet/chakch007"/>
+                        </endpoint>
+                        <endpoint>
+                            <http uri-template="http://192.168.192.100:8080/tweet/chakch007"/>
+                        </endpoint>
+                    </loadbalance>
+                    <session type="http">
+                        <sessionTimeout>10000</sessionTimeout>
+                    </session>
+                </endpoint>
+            </send>
+        </inSequence>
+        <outSequence>
+            <property name="ed" expression="get-property('axis2','From')" scope="axis2-client" type="STRING"/>
+            <log level="custom">
+                <property name="REMOTE_ADDR :" expression="get-property('ed')"/>
+            </log>
+            <payloadFactory media-type="json" description="">
+                <format>{"Pseudo":"$1", "address":"$2" }</format>
+                <args>
+                    <arg evaluator="json" expression="$.Pseudo"/>
+                    <arg evaluator="xml" expression="get-property('client_ip_address')"/>
+                </args>
+            </payloadFactory>
+            <send/>
+        </outSequence>
+        <faultSequence>
+            <makefault version="soap11">
+                <code xmlns:soap11Env="http://schemas.xmlsoap.org/soap/envelope/" value="soap11Env:VersionMismatch"/>
+                <reason value="COULDN'T SEND THE MESSAGE TO THE SERVER."/>
+            </makefault>
+            <send/>
+        </faultSequence>
+    </target>
+</proxy>

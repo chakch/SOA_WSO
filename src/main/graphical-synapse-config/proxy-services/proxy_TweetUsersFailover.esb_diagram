@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_g13QcKt-EeSuNIbxW_goMw" type="Esb" name="proxy_TweetUsersFailover.esb_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_g6uiUKt-EeSuNIbxW_goMw" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_g6vJYKt-EeSuNIbxW_goMw" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_H-wWkK-oEeSRScm2uuuvSw" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_H-w9oK-oEeSRScm2uuuvSw" type="5003"/>
+        <children xmi:type="notation:Node" xmi:id="_H_AOMK-oEeSRScm2uuuvSw" type="3002">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_H_A1QK-oEeSRScm2uuuvSw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_H_A1Qa-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_H_A1Qq-oEeSRScm2uuuvSw"/>
+          <element xmi:type="esb:ProxyOutputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@outputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H_A1Q6-oEeSRScm2uuuvSw" x="81" y="-27"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_H_A1RK-oEeSRScm2uuuvSw" type="3003">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_H_A1Ra-oEeSRScm2uuuvSw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_H_A1Rq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_H_A1R6-oEeSRScm2uuuvSw"/>
+          <element xmi:type="esb:ProxyInputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@inputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H_A1SK-oEeSRScm2uuuvSw" x="81" y="-15"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_H_BcUK-oEeSRScm2uuuvSw" type="3729">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_H_BcUa-oEeSRScm2uuuvSw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_H_BcUq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_H_BcU6-oEeSRScm2uuuvSw"/>
+          <element xmi:type="esb:ProxyOutSequenceOutputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@outSequenceOutputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H_BcVK-oEeSRScm2uuuvSw" x="105" y="-15"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_H_BcVa-oEeSRScm2uuuvSw" type="3489">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_H_BcVq-oEeSRScm2uuuvSw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_H_BcV6-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_H_BcWK-oEeSRScm2uuuvSw"/>
+          <element xmi:type="esb:ProxyFaultInputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@faultInputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H_BcWa-oEeSRScm2uuuvSw"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_H_CDYK-oEeSRScm2uuuvSw" type="3486">
+          <children xmi:type="notation:Node" xmi:id="_H_L0YK-oEeSRScm2uuuvSw" type="3487">
+            <children xmi:type="notation:Node" xmi:id="_H_NpkK-oEeSRScm2uuuvSw" type="3608">
+              <children xmi:type="notation:DecorationNode" xmi:id="_H_Npla-oEeSRScm2uuuvSw" type="7034">
+                <children xmi:type="notation:Node" xmi:id="_H_n5QK-oEeSRScm2uuuvSw" type="3495">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_H_n5Ra-oEeSRScm2uuuvSw" type="5168"/>
+                  <children xmi:type="notation:Node" xmi:id="_H_rjoK-oEeSRScm2uuuvSw" type="3018">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_H_rjoa-oEeSRScm2uuuvSw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_H_rjoq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_H_rjo6-oEeSRScm2uuuvSw"/>
+                    <element xmi:type="esb:LogMediatorInputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@inputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H_rjpK-oEeSRScm2uuuvSw" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_H_rjpa-oEeSRScm2uuuvSw" type="3019">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_H_sKsK-oEeSRScm2uuuvSw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_H_sKsa-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_H_sKsq-oEeSRScm2uuuvSw"/>
+                    <element xmi:type="esb:LogMediatorOutputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@outputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H_sKs6-oEeSRScm2uuuvSw" x="-11" y="-9"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_H_n5Qa-oEeSRScm2uuuvSw"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_H_n5Qq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_H_n5Q6-oEeSRScm2uuuvSw"/>
+                  <element xmi:type="esb:LogMediator" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H_n5RK-oEeSRScm2uuuvSw" x="26" y="58" width="77" height="75"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_H__ssK-oEeSRScm2uuuvSw" type="3492">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_H__sta-oEeSRScm2uuuvSw" type="5167"/>
+                  <children xmi:type="notation:Node" xmi:id="_IAD-IK-oEeSRScm2uuuvSw" type="3033">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_IAD-Ia-oEeSRScm2uuuvSw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_IAD-Iq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_IAD-I6-oEeSRScm2uuuvSw"/>
+                    <element xmi:type="esb:PropertyMediatorInputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@inputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IAD-JK-oEeSRScm2uuuvSw" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_IAElMK-oEeSRScm2uuuvSw" type="3034">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_IAElMa-oEeSRScm2uuuvSw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_IAElMq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_IAElM6-oEeSRScm2uuuvSw"/>
+                    <element xmi:type="esb:PropertyMediatorOutputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@outputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IAElNK-oEeSRScm2uuuvSw" x="-11" y="-9"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_H__ssa-oEeSRScm2uuuvSw"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_H__ssq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_H__ss6-oEeSRScm2uuuvSw"/>
+                  <element xmi:type="esb:PropertyMediator" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H__stK-oEeSRScm2uuuvSw" x="142" y="58" width="77" height="75"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_IAcYoK-oEeSRScm2uuuvSw" type="3492">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_IAcYpa-oEeSRScm2uuuvSw" type="5167"/>
+                  <children xmi:type="notation:Node" xmi:id="_IAgqEK-oEeSRScm2uuuvSw" type="3033">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_IAgqEa-oEeSRScm2uuuvSw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_IAgqEq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_IAgqE6-oEeSRScm2uuuvSw"/>
+                    <element xmi:type="esb:PropertyMediatorInputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@inputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IAgqFK-oEeSRScm2uuuvSw" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_IAhRIK-oEeSRScm2uuuvSw" type="3034">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_IAhRIa-oEeSRScm2uuuvSw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_IAhRIq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_IAhRI6-oEeSRScm2uuuvSw"/>
+                    <element xmi:type="esb:PropertyMediatorOutputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@outputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IAhRJK-oEeSRScm2uuuvSw" x="-11" y="-9"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_IAcYoa-oEeSRScm2uuuvSw"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_IAcYoq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_IAcYo6-oEeSRScm2uuuvSw"/>
+                  <element xmi:type="esb:PropertyMediator" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IAcYpK-oEeSRScm2uuuvSw" x="259" y="58" width="77" height="75"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_IA5roK-oEeSRScm2uuuvSw" type="3515">
+                  <children xmi:type="notation:Node" xmi:id="_IA8u8K-oEeSRScm2uuuvSw" type="3085">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_IA8u8a-oEeSRScm2uuuvSw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_IA8u8q-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_IA8u86-oEeSRScm2uuuvSw"/>
+                    <element xmi:type="esb:SendMediatorInputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@InputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IA8u9K-oEeSRScm2uuuvSw" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_IA9WAK-oEeSRScm2uuuvSw" type="3086">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_IA9WAa-oEeSRScm2uuuvSw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_IA9WAq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_IA9WA6-oEeSRScm2uuuvSw"/>
+                    <element xmi:type="esb:SendMediatorOutputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@OutputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IA9WBK-oEeSRScm2uuuvSw" x="-11" y="-9"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_IA9WBa-oEeSRScm2uuuvSw" type="3539">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_IA9WBq-oEeSRScm2uuuvSw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_IA9WB6-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_IA9WCK-oEeSRScm2uuuvSw"/>
+                    <element xmi:type="esb:SendMediatorEndpointOutputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@endpointOutputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IA9WCa-oEeSRScm2uuuvSw"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_IA99EK-oEeSRScm2uuuvSw" type="3728">
+                    <children xmi:type="notation:DecorationNode" xmi:id="_IA99Fa-oEeSRScm2uuuvSw" type="7046">
+                      <children xmi:type="notation:Node" xmi:id="_IBSGIK-oEeSRScm2uuuvSw" type="3613">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_IBSGJa-oEeSRScm2uuuvSw" type="5205"/>
+                        <children xmi:type="notation:Node" xmi:id="_IBWXkK-oEeSRScm2uuuvSw" type="3095">
+                          <styles xmi:type="notation:DescriptionStyle" xmi:id="_IBWXka-oEeSRScm2uuuvSw"/>
+                          <styles xmi:type="notation:FontStyle" xmi:id="_IBWXkq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                          <styles xmi:type="notation:LineStyle" xmi:id="_IBWXk6-oEeSRScm2uuuvSw"/>
+                          <element xmi:type="esb:LoadBalanceEndPointInputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@mediatorFlow/@children.0/@inputConnector"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IBWXlK-oEeSRScm2uuuvSw"/>
+                        </children>
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_IBSGIa-oEeSRScm2uuuvSw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_IBSGIq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_IBSGI6-oEeSRScm2uuuvSw"/>
+                        <element xmi:type="esb:LoadBalanceEndPoint" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@mediatorFlow/@children.0"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IBSGJK-oEeSRScm2uuuvSw" x="5" y="178"/>
+                      </children>
+                      <styles xmi:type="notation:TitleStyle" xmi:id="_IA99Fq-oEeSRScm2uuuvSw" showTitle="true"/>
+                    </children>
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_IA99Ea-oEeSRScm2uuuvSw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_IA99Eq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_IA99E6-oEeSRScm2uuuvSw"/>
+                    <element xmi:type="esb:MediatorFlow" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@mediatorFlow"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IA99FK-oEeSRScm2uuuvSw"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_IA5roa-oEeSRScm2uuuvSw"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_IA5roq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_IA5ro6-oEeSRScm2uuuvSw"/>
+                  <element xmi:type="esb:SendMediator" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IA5rpK-oEeSRScm2uuuvSw" x="376" y="58" width="170" height="100"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_IGxqIK-oEeSRScm2uuuvSw" type="3515">
+                  <children xmi:type="notation:Node" xmi:id="_IG1UgK-oEeSRScm2uuuvSw" type="3085">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_IG1Uga-oEeSRScm2uuuvSw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_IG1Ugq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_IG1Ug6-oEeSRScm2uuuvSw"/>
+                    <element xmi:type="esb:SendMediatorInputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.4/@InputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IG1UhK-oEeSRScm2uuuvSw" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_IG17kK-oEeSRScm2uuuvSw" type="3086">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_IG17ka-oEeSRScm2uuuvSw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_IG17kq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_IG17k6-oEeSRScm2uuuvSw"/>
+                    <element xmi:type="esb:SendMediatorOutputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.4/@OutputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IG17lK-oEeSRScm2uuuvSw" x="-11" y="-9"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_IG17la-oEeSRScm2uuuvSw" type="3539">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_IG17lq-oEeSRScm2uuuvSw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_IG17l6-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_IG17mK-oEeSRScm2uuuvSw"/>
+                    <element xmi:type="esb:SendMediatorEndpointOutputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.4/@endpointOutputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IG17ma-oEeSRScm2uuuvSw"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_IG2ioK-oEeSRScm2uuuvSw" type="3728">
+                    <children xmi:type="notation:DecorationNode" xmi:id="_IG2ipa-oEeSRScm2uuuvSw" type="7046">
+                      <styles xmi:type="notation:TitleStyle" xmi:id="_IG2ipq-oEeSRScm2uuuvSw" showTitle="true"/>
+                    </children>
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_IG2ioa-oEeSRScm2uuuvSw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_IG2ioq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_IG2io6-oEeSRScm2uuuvSw"/>
+                    <element xmi:type="esb:MediatorFlow" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.4/@mediatorFlow"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IG2ipK-oEeSRScm2uuuvSw"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_IGyRMK-oEeSRScm2uuuvSw"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_IGyRMa-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_IGyRMq-oEeSRScm2uuuvSw"/>
+                  <element xmi:type="esb:SendMediator" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.4"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IGyRM6-oEeSRScm2uuuvSw" x="26" y="200" width="270" height="100"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_IHKEoK-oEeSRScm2uuuvSw" type="3597">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_IHKrsK-oEeSRScm2uuuvSw" type="5191"/>
+                  <children xmi:type="notation:Node" xmi:id="_IHOWEK-oEeSRScm2uuuvSw" type="3598">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_IHOWEa-oEeSRScm2uuuvSw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_IHOWEq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_IHOWE6-oEeSRScm2uuuvSw"/>
+                    <element xmi:type="esb:PayloadFactoryMediatorInputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.5/@inputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IHOWFK-oEeSRScm2uuuvSw" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_IHO9IK-oEeSRScm2uuuvSw" type="3599">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_IHO9Ia-oEeSRScm2uuuvSw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_IHO9Iq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_IHO9I6-oEeSRScm2uuuvSw"/>
+                    <element xmi:type="esb:PayloadFactoryMediatorOutputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.5/@outputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IHO9JK-oEeSRScm2uuuvSw" x="-11" y="-9"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_IHKEoa-oEeSRScm2uuuvSw"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_IHKEoq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_IHKEo6-oEeSRScm2uuuvSw"/>
+                  <element xmi:type="esb:PayloadFactoryMediator" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.5"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IHKEpK-oEeSRScm2uuuvSw" x="235" y="200" width="104" height="75"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_IHgp8K-oEeSRScm2uuuvSw" type="3495">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_IHgp9a-oEeSRScm2uuuvSw" type="5168"/>
+                  <children xmi:type="notation:Node" xmi:id="_IHjtQK-oEeSRScm2uuuvSw" type="3018">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_IHjtQa-oEeSRScm2uuuvSw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_IHjtQq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_IHjtQ6-oEeSRScm2uuuvSw"/>
+                    <element xmi:type="esb:LogMediatorInputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.6/@inputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IHjtRK-oEeSRScm2uuuvSw" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_IHkUUK-oEeSRScm2uuuvSw" type="3019">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_IHkUUa-oEeSRScm2uuuvSw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_IHkUUq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_IHkUU6-oEeSRScm2uuuvSw"/>
+                    <element xmi:type="esb:LogMediatorOutputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.6/@outputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IHkUVK-oEeSRScm2uuuvSw" x="-11" y="-9"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_IHgp8a-oEeSRScm2uuuvSw"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_IHgp8q-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_IHgp86-oEeSRScm2uuuvSw"/>
+                  <element xmi:type="esb:LogMediator" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.6"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IHgp9K-oEeSRScm2uuuvSw" x="379" y="200" width="77" height="75"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_IHzk4K-oEeSRScm2uuuvSw" type="3492">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_IH0L8K-oEeSRScm2uuuvSw" type="5167"/>
+                  <children xmi:type="notation:Node" xmi:id="_IH3PQK-oEeSRScm2uuuvSw" type="3033">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_IH3PQa-oEeSRScm2uuuvSw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_IH3PQq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_IH3PQ6-oEeSRScm2uuuvSw"/>
+                    <element xmi:type="esb:PropertyMediatorInputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.7/@inputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IH3PRK-oEeSRScm2uuuvSw" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_IH3PRa-oEeSRScm2uuuvSw" type="3034">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_IH3PRq-oEeSRScm2uuuvSw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_IH3PR6-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_IH3PSK-oEeSRScm2uuuvSw"/>
+                    <element xmi:type="esb:PropertyMediatorOutputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.7/@outputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IH3PSa-oEeSRScm2uuuvSw" x="-11" y="-9"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_IHzk4a-oEeSRScm2uuuvSw"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_IHzk4q-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_IHzk46-oEeSRScm2uuuvSw"/>
+                  <element xmi:type="esb:PropertyMediator" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.7"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IHzk5K-oEeSRScm2uuuvSw" x="496" y="200" width="77" height="75"/>
+                </children>
+                <styles xmi:type="notation:TitleStyle" xmi:id="_H_Nplq-oEeSRScm2uuuvSw" showTitle="true"/>
+              </children>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_H_Npka-oEeSRScm2uuuvSw"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_H_Npkq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_H_Npk6-oEeSRScm2uuuvSw"/>
+              <element xmi:type="esb:MediatorFlow" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H_NplK-oEeSRScm2uuuvSw"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_H_L0Ya-oEeSRScm2uuuvSw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_H_L0Yq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_H_L0Y6-oEeSRScm2uuuvSw"/>
+            <element xmi:type="esb:ProxyServiceSequenceAndEndpointContainer" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H_L0ZK-oEeSRScm2uuuvSw"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_H_MbcK-oEeSRScm2uuuvSw" type="3488">
+            <children xmi:type="notation:Node" xmi:id="_H_PewK-oEeSRScm2uuuvSw" type="3530">
+              <children xmi:type="notation:DecorationNode" xmi:id="_H_Pexa-oEeSRScm2uuuvSw" type="7019">
+                <children xmi:type="notation:Node" xmi:id="_IIJjIK-oEeSRScm2uuuvSw" type="3515">
+                  <children xmi:type="notation:Node" xmi:id="_IINNgK-oEeSRScm2uuuvSw" type="3085">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_IINNga-oEeSRScm2uuuvSw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_IINNgq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_IINNg6-oEeSRScm2uuuvSw"/>
+                    <element xmi:type="esb:SendMediatorInputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@faultContainer/@mediatorFlow/@children.0/@InputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IINNhK-oEeSRScm2uuuvSw" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_IIN0kK-oEeSRScm2uuuvSw" type="3086">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_IIN0ka-oEeSRScm2uuuvSw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_IIN0kq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_IIN0k6-oEeSRScm2uuuvSw"/>
+                    <element xmi:type="esb:SendMediatorOutputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@faultContainer/@mediatorFlow/@children.0/@OutputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IIN0lK-oEeSRScm2uuuvSw" x="-11" y="-9"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_IIN0la-oEeSRScm2uuuvSw" type="3539">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_IIN0lq-oEeSRScm2uuuvSw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_IIN0l6-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_IIN0mK-oEeSRScm2uuuvSw"/>
+                    <element xmi:type="esb:SendMediatorEndpointOutputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@faultContainer/@mediatorFlow/@children.0/@endpointOutputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IIN0ma-oEeSRScm2uuuvSw"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_IIOboK-oEeSRScm2uuuvSw" type="3728">
+                    <children xmi:type="notation:DecorationNode" xmi:id="_IIObpa-oEeSRScm2uuuvSw" type="7046">
+                      <styles xmi:type="notation:TitleStyle" xmi:id="_IIPCsK-oEeSRScm2uuuvSw" showTitle="true"/>
+                    </children>
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_IIOboa-oEeSRScm2uuuvSw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_IIOboq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_IIObo6-oEeSRScm2uuuvSw"/>
+                    <element xmi:type="esb:MediatorFlow" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@faultContainer/@mediatorFlow/@children.0/@mediatorFlow"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IIObpK-oEeSRScm2uuuvSw"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_IIJjIa-oEeSRScm2uuuvSw"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_IIJjIq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_IIJjI6-oEeSRScm2uuuvSw"/>
+                  <element xmi:type="esb:SendMediator" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@faultContainer/@mediatorFlow/@children.0"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IIJjJK-oEeSRScm2uuuvSw" x="26" y="95" width="270" height="100"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_IIgIcK-oEeSRScm2uuuvSw" type="3509">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_IIgIda-oEeSRScm2uuuvSw" type="5176"/>
+                  <children xmi:type="notation:Node" xmi:id="_IIjy0K-oEeSRScm2uuuvSw" type="3067">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_IIjy0a-oEeSRScm2uuuvSw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_IIjy0q-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_IIjy06-oEeSRScm2uuuvSw"/>
+                    <element xmi:type="esb:FaultMediatorInputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@faultContainer/@mediatorFlow/@children.1/@inputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IIjy1K-oEeSRScm2uuuvSw" x="-6" y="-5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_IIkZ4K-oEeSRScm2uuuvSw" type="3068">
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_IIkZ4a-oEeSRScm2uuuvSw"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_IIkZ4q-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_IIkZ46-oEeSRScm2uuuvSw"/>
+                    <element xmi:type="esb:FaultMediatorOutputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@faultContainer/@mediatorFlow/@children.1/@outputConnector"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IIkZ5K-oEeSRScm2uuuvSw" x="-11" y="-9"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_IIgIca-oEeSRScm2uuuvSw"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_IIgIcq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_IIgIc6-oEeSRScm2uuuvSw"/>
+                  <element xmi:type="esb:FaultMediator" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@faultContainer/@mediatorFlow/@children.1"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IIgIdK-oEeSRScm2uuuvSw" x="235" y="95" width="77" height="75"/>
+                </children>
+              </children>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_H_Pewa-oEeSRScm2uuuvSw"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_H_Pewq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_H_Pew6-oEeSRScm2uuuvSw"/>
+              <element xmi:type="esb:MediatorFlow" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@faultContainer/@mediatorFlow"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H_PexK-oEeSRScm2uuuvSw"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_H_Mbca-oEeSRScm2uuuvSw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_H_Mbcq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_H_Mbc6-oEeSRScm2uuuvSw"/>
+            <element xmi:type="esb:ProxyServiceFaultContainer" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@faultContainer"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H_MbdK-oEeSRScm2uuuvSw"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_H_CDYa-oEeSRScm2uuuvSw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_H_CDYq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_H_CDY6-oEeSRScm2uuuvSw"/>
+          <element xmi:type="esb:ProxyServiceContainer" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H_CDZK-oEeSRScm2uuuvSw"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_IBL_gK-oEeSRScm2uuuvSw" type="3731">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_IBL_ga-oEeSRScm2uuuvSw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_IBL_gq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_IBL_g6-oEeSRScm2uuuvSw"/>
+          <element xmi:type="esb:ProxyInSequenceInputConnector" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@inSequenceInputConnectors.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IBL_hK-oEeSRScm2uuuvSw"/>
+        </children>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_H-wWka-oEeSRScm2uuuvSw"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_H-wWkq-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_H-wWk6-oEeSRScm2uuuvSw"/>
+        <element xmi:type="esb:ProxyService" href="proxy_TweetUsersFailover.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H-wWlK-oEeSRScm2uuuvSw" width="300" height="400"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_g6uiUat-EeSuNIbxW_goMw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_g6uiUqt-EeSuNIbxW_goMw" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_g6uiU6t-EeSuNIbxW_goMw"/>
+    <element xmi:type="esb:EsbServer" href="proxy_TweetUsersFailover.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g6uiVKt-EeSuNIbxW_goMw"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_g13Qcat-EeSuNIbxW_goMw"/>
+  <element xmi:type="esb:EsbDiagram" href="proxy_TweetUsersFailover.esb#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_IJF-UK-oEeSRScm2uuuvSw" type="4001" source="_H_AOMK-oEeSRScm2uuuvSw" target="_H_rjoK-oEeSRScm2uuuvSw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_IJF-Ua-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IJF-Uq-oEeSRScm2uuuvSw" points="[11, 5, -5, 0]$[10, 0, -6, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_IJK20K-oEeSRScm2uuuvSw" type="4001" source="_H_rjpa-oEeSRScm2uuuvSw" target="_IAD-IK-oEeSRScm2uuuvSw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_IJK20a-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IJK20q-oEeSRScm2uuuvSw" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_IJPvUK-oEeSRScm2uuuvSw" type="4001" source="_IAElMK-oEeSRScm2uuuvSw" target="_IAgqEK-oEeSRScm2uuuvSw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_IJPvUa-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IJPvUq-oEeSRScm2uuuvSw" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_IJgOAK-oEeSRScm2uuuvSw" type="4001" source="_IAhRIK-oEeSRScm2uuuvSw" target="_IA8u8K-oEeSRScm2uuuvSw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_IJgOAa-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IJgOAq-oEeSRScm2uuuvSw" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_IJmUoK-oEeSRScm2uuuvSw" type="4001" source="_IG17kK-oEeSRScm2uuuvSw" target="_H_A1RK-oEeSRScm2uuuvSw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_IJmUoa-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.4/@OutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IJmUoq-oEeSRScm2uuuvSw" points="[-11, 7, 10, 0]$[-10, 0, 11, -7]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_IJqmEK-oEeSRScm2uuuvSw" type="4001" source="_IHO9IK-oEeSRScm2uuuvSw" target="_IG1UgK-oEeSRScm2uuuvSw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_IJqmEa-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.5/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IJqmEq-oEeSRScm2uuuvSw" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_IJvekK-oEeSRScm2uuuvSw" type="4001" source="_IHkUUK-oEeSRScm2uuuvSw" target="_IHOWEK-oEeSRScm2uuuvSw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_IJveka-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.6/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IJvekq-oEeSRScm2uuuvSw" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_IJ0XEK-oEeSRScm2uuuvSw" type="4001" source="_IH3PRa-oEeSRScm2uuuvSw" target="_IHjtQK-oEeSRScm2uuuvSw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_IJ0XEa-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.7/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IJ0XEq-oEeSRScm2uuuvSw" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_IJ4ogK-oEeSRScm2uuuvSw" type="4001" source="_IIN0kK-oEeSRScm2uuuvSw" target="_H_BcVa-oEeSRScm2uuuvSw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_IJ4oga-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@faultContainer/@mediatorFlow/@children.0/@OutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IJ4ogq-oEeSRScm2uuuvSw" points="[-11, 1, 16, 0]$[-16, 0, 11, -1]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_IJ9hAK-oEeSRScm2uuuvSw" type="4001" source="_IIkZ4K-oEeSRScm2uuuvSw" target="_IINNgK-oEeSRScm2uuuvSw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_IJ9hAa-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@faultContainer/@mediatorFlow/@children.1/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IJ9hAq-oEeSRScm2uuuvSw" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_IKBycK-oEeSRScm2uuuvSw" type="4001" source="_H_BcUK-oEeSRScm2uuuvSw" target="_IH3PQK-oEeSRScm2uuuvSw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_IKByca-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@outSequenceOutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IKBycq-oEeSRScm2uuuvSw" points="[-11, -7, 7, 0]$[-12, -5, 6, 2]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_IN5l0K-oEeSRScm2uuuvSw" type="4001" source="_IA9WBa-oEeSRScm2uuuvSw" target="_IBWXkK-oEeSRScm2uuuvSw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_IN5l0a-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@endpointOutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IN5l0q-oEeSRScm2uuuvSw" points="[1, 9, -32, -185]$[32, 189, -1, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_IOFMAK-oEeSRScm2uuuvSw" type="4001" source="_IA9WAK-oEeSRScm2uuuvSw" target="_IBL_gK-oEeSRScm2uuuvSw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_IOFMAa-oEeSRScm2uuuvSw" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="proxy_TweetUsersFailover.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@OutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IOFMAq-oEeSRScm2uuuvSw" points="[5, -9, -18, 30]$[20, -34, -3, 5]"/>
+  </edges>
+</notation:Diagram>

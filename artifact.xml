@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="ApiTweet" groupId="com.example.TweetProject.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/ApiTweet.xml</file>
+    </artifact>
+    <artifact name="ProxyIpGet" groupId="com.example.TweetProject.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/ProxyIpGet.xml</file>
+    </artifact>
+    <artifact name="MultipleSendProxy" groupId="com.example.TweetProject.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/MultipleSendProxy.xml</file>
+    </artifact>
+    <artifact name="TweetUsersFailover" groupId="com.example.TweetProject.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/TweetUsersFailover.xml</file>
+    </artifact>
+    <artifact name="ApiTweetGet" groupId="com.example.TweetProject.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/ApiTweetGet.xml</file>
+    </artifact>
+</artifacts>

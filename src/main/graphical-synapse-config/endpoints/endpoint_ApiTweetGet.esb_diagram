@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_VeOJsK5mEeSRScm2uuuvSw" type="Esb" name="endpoint_ApiTweetGet.esb_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_VfvzsK5mEeSRScm2uuuvSw" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Vfvzta5mEeSRScm2uuuvSw" type="7001"/>
+    <children xmi:type="notation:Shape" xmi:id="_VkqI4K5mEeSRScm2uuuvSw" type="3642" fontName="Segoe UI">
+      <children xmi:type="notation:BasicCompartment" xmi:id="_Vkqv8K5mEeSRScm2uuuvSw" type="7041">
+        <children xmi:type="notation:Node" xmi:id="_Vk6nkK5mEeSRScm2uuuvSw" type="3712">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_Vk6nka5mEeSRScm2uuuvSw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Vk6nkq5mEeSRScm2uuuvSw" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_Vk6nk65mEeSRScm2uuuvSw"/>
+          <element xmi:type="esb:HTTPEndpoint" href="endpoint_ApiTweetGet.esb#//@server/@children.0/@child"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Vk6nlK5mEeSRScm2uuuvSw" width="75" height="75"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_Vkqv8a5mEeSRScm2uuuvSw" showTitle="true"/>
+      </children>
+      <element xmi:type="esb:EndpointDiagram" href="endpoint_ApiTweetGet.esb#//@server/@children.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VkqI4a5mEeSRScm2uuuvSw" width="133" height="104"/>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_Vfvzsa5mEeSRScm2uuuvSw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Vfvzsq5mEeSRScm2uuuvSw" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_Vfvzs65mEeSRScm2uuuvSw"/>
+    <element xmi:type="esb:EsbServer" href="endpoint_ApiTweetGet.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VfvztK5mEeSRScm2uuuvSw"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_VeOJsa5mEeSRScm2uuuvSw"/>
+  <element xmi:type="esb:EsbDiagram" href="endpoint_ApiTweetGet.esb#/"/>
+</notation:Diagram>

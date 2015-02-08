@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoint xmlns="http://ws.apache.org/ns/synapse" name="ApiTweetGet">
+    <http method="get" uri-template="http://192.168.192.101:8080/tweet/users"/>
+</endpoint>
